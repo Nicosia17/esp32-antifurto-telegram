@@ -20,10 +20,12 @@ IoT anti-theft system based on ESP32 using a PIR sensor to detect intrusions. Th
 
 ## 🛠️ Setup
 
-1. Inserisci il tuo SSID e la password Wi-Fi nel codice (`main.cpp`)
-2. Crea un bot su Telegram con [BotFather](https://t.me/botfather) e copia il token
-3. Inserisci gli ID Telegram autorizzati
-4. Carica il codice sull’ESP32 usando PlatformIO o Arduino IDE
+1. Crea un bot Telegram usando [BotFather](https://t.me/botfather) e ottieni il token.
+2. Inserisci nel codice (`main.cpp`):
+   - il nome e la password della tua rete Wi-Fi
+   - il token del tuo bot Telegram
+   - gli ID Telegram degli utenti autorizzati
+3. Carica il codice su ESP32 utilizzando PlatformIO o Arduino IDE.
 
 ---
 
